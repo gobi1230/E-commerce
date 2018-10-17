@@ -15,5 +15,6 @@ public class App
     {
         System.out.println( "Hello World!" );
         ApplicationContext context=new AnnotationConfigApplicationContext(DBConfiguration.class);
-    }
+        }
+    
 }
